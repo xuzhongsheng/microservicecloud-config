@@ -1,4 +1,11 @@
-﻿server:
+﻿spring:
+  profiles: 
+    active:  
+    - dev  
+
+--- 
+     
+server:
    port: 8201
 sprig:
    profiles: dev
